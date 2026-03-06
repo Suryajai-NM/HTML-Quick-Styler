@@ -39,10 +39,6 @@ print(tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1]:]))
 
 !pip install -q gradio transformers torch black autopep8 reportlab requests
 
-
-
-
-
 !pip install -q gradio transformers torch black autopep8 reportlab requests ast-super-parser
 
 import gradio as gr
@@ -60,10 +56,7 @@ import requests
 import urllib.parse
 import inspect
 
-# ============================================================================
 # DOC-GENIE CORE LOGIC - IMPROVED VERSION
-# ============================================================================
-
 class DocGenieAnalyzer:
     """Analyze Python functions and generate professional docstrings"""
 
