@@ -56,7 +56,7 @@ import requests
 import urllib.parse
 import inspect
 
-# DOC-GENIE CORE LOGIC - IMPROVED VERSION
+# DOC-GENIE CORE LOGIC
 class DocGenieAnalyzer:
     """Analyze Python functions and generate professional docstrings"""
 
